@@ -11,5 +11,5 @@ app.setSerializerCompiler(serializerCompiler)
 app.register(createTrip)
 
 app.listen({ port: 3333 }).then(() =>  {
-    console.log('Server running!');
+    console.log(`Server running on port: 3333 🚀`);
 })
